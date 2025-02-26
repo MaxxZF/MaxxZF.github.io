@@ -226,7 +226,7 @@ function loadScene()
     }
 
     const loader = new GLTFLoader();
-    loader.load('chess/assets/chess_pieces/scene.gltf', function(gltf) {
+    loader.load('models/chess_pieces/scene.gltf', function(gltf) {
         // Find individual piece meshes
         let pieceMeshes = {};
         gltf.scene.traverse((child) => {
